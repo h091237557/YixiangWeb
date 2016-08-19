@@ -3,8 +3,46 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
+	<link rel="stylesheet" href="css/reset.css" media="all">
+	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/simple-slideshow-styles.css">
 </head>
 <body>
-	
+	<header>Yixiang</header>
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Products</li>
+			<li>Contact</li>
+		</ul>
+	</nav>
+	<section class="bss-slides">
+		<figure>
+			<img src="img/A-1.jpg" width="100%" />
+		</figure>
+		<figure>
+			<img src="img/B-1.jpg" width="100%" />
+		</figure>
+		<figure>
+			<img src="img/C-1.jpg" width="100%" />
+		</figure>
+	</section>
+	<section>
+		<article></article>
+	</section>
+	<footer></footer>
 </body>
+<script src="src/hammer.min.js"></script>
+<script src="src/better-simple-slideshow.js"></script>
+<script>
+	var opts = {
+	    auto : {
+						         speed : 3500, 
+						         pauseOnHover : true
+						     },
+	    fullScreen : false, 
+	    swipe : true
+	};
+	    makeBSS('.bss-slides',opts);
+</script>
 </html>

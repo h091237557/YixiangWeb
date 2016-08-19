@@ -1,0 +1,19 @@
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 50px;
+  font-family: cursive;
+  line-height: 108px;
+  text-align: center; }
+
+nav {
+  background-color: #8b0000;
+  color: #FFFFFF; }
+  nav ul {
+    text-align: center; }
+    nav ul li {
+      display: inline-block;
+      font-size: 30px;
+      margin: 20px; }
