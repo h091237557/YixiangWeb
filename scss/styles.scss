@@ -14,10 +14,19 @@ header {
 }
 
 nav {
-	background-color:$main;
-	color:$white;
-	ul {
-
+	z-index:5;
+	width:100%;
+	position:absolute;
+	font-weight:blod;
+	font-fmaily:'Roboto', sans-serif;
+	color:$black;
+	.navbar-header {
+		font-size:36px;
+		display:inline-block;
+		
+	}
+	.navbar {
+		display:inline-block;
 		text-align:center;
 		li {
 			display:inline-block;
@@ -28,3 +37,22 @@ nav {
 }
 
 
+.about-us {
+	background-color:$white;
+	height:300px;
+	padding:100px 0;
+	h3 {
+		font-size:35px;
+	}
+}
+
+.text-center {
+	text-align:center;
+}
+
+.container {
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:55px;
+	margin-left:55px;
+}

@@ -9,11 +9,35 @@ header {
   text-align: center; }
 
 nav {
-  background-color: #8b0000;
-  color: #FFFFFF; }
-  nav ul {
+  z-index: 5;
+  width: 100%;
+  position: absolute;
+  font-weight: blod;
+  font-fmaily: 'Roboto', sans-serif;
+  color: #000000; }
+  nav .navbar-header {
+    font-size: 36px;
+    display: inline-block; }
+  nav .navbar {
+    display: inline-block;
     text-align: center; }
-    nav ul li {
+    nav .navbar li {
       display: inline-block;
       font-size: 30px;
       margin: 20px; }
+
+.about-us {
+  background-color: #FFFFFF;
+  height: 300px;
+  padding: 100px 0; }
+  .about-us h3 {
+    font-size: 35px; }
+
+.text-center {
+  text-align: center; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 55px;
+  margin-left: 55px; }
