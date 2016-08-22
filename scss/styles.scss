@@ -1,6 +1,7 @@
 $white:#FFFFFF;
 $black:#000000;
 $main:#8b0000;
+$pcolor:#A7A7A7;
 
 header {
 	height:100px;
@@ -39,10 +40,44 @@ nav {
 
 .about-us {
 	background-color:$white;
-	height:300px;
 	padding:100px 0;
 	h3 {
 		font-size:35px;
+		margin-bottom:40px;
+	}
+	h4 {
+		font-size:25px;
+		padding-bottom:20px;
+	}
+	p {
+		font-size:16px;
+		font-weight:300;
+		line-height:32px;
+		padding-bottom:20px;
+		color:$pcolor;
+	}
+	img {
+		width:45%;
+
+	}
+	div {
+		float:right;
+		width:45%;
+	}
+}
+
+.our-product {
+	background-color:$black;
+	padding:100px 0;
+	h3 {
+		font-size:35px;	
+		color:$white;		
+	}	
+	p {
+		font-size:18px;
+		color:$white;
+
+		padding:10px 0 50px;
 	}
 }
 

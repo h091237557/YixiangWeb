@@ -28,10 +28,35 @@ nav {
 
 .about-us {
   background-color: #FFFFFF;
-  height: 300px;
   padding: 100px 0; }
   .about-us h3 {
-    font-size: 35px; }
+    font-size: 35px;
+    margin-bottom: 40px; }
+  .about-us h4 {
+    font-size: 25px;
+    padding-bottom: 20px; }
+  .about-us p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-bottom: 20px;
+    color: #A7A7A7; }
+  .about-us img {
+    width: 45%; }
+  .about-us div {
+    float: right;
+    width: 45%; }
+
+.our-product {
+  background-color: #000000;
+  padding: 100px 0; }
+  .our-product h3 {
+    font-size: 35px;
+    color: #FFFFFF; }
+  .our-product p {
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px 0 50px; }
 
 .text-center {
   text-align: center; }
