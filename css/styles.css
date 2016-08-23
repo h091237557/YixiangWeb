@@ -48,7 +48,10 @@ nav {
     width: 45%; }
 
 .our-product {
-  background-color: #000000;
+  background: url(../img/event.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
   padding: 100px 0; }
   .our-product h3 {
     font-size: 35px;
@@ -57,6 +60,39 @@ nav {
     font-size: 18px;
     color: #FFFFFF;
     padding: 10px 0 50px; }
+
+.our-product-block {
+  text-align: center;
+  display: inline-block;
+  width: 27%;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.64);
+  border: 5px solid rgba(0, 0, 0, 0.33);
+  transition: all 0.5s ease-in-out;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .our-product-block img {
+    padding: 20px 0 0 0;
+    width: 100%; }
+  .our-product-block h4 {
+    color: #FFFFFF;
+    padding: 20px 0;
+    font-size: 20px; }
+
+footer {
+  background-color: #222;
+  padding: 60px 0 50px;
+  color: #FFFFFF; }
+  footer h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-transform: uppercase; }
+  footer hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee; }
 
 .text-center {
   text-align: center; }
