@@ -88,11 +88,19 @@ footer {
     font-weight: 500;
     padding-bottom: 10px;
     text-transform: uppercase; }
+  footer h4 {
+    font-size: 26px; }
   footer hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid #eee; }
+  footer i {
+    display: inline-block;
+    font-size: 30px;
+    margin: 25px 20px 10px 25px; }
+  footer p {
+    display: inline-block; }
 
 .text-center {
   text-align: center; }
