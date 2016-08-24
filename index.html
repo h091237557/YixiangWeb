@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/simple-slideshow-styles.css">
 </head>
 <body>
-	<nav>
+	<nav class="container">
 		<div class="navbar-header">Yixiang</div>
 		<ul class="navbar">
 			<li>Home</li>
@@ -19,10 +19,10 @@
 	</nav>
 	<section class="bss-slides">
 		<figure>
-			<img src="img/5911.jpg" width="100%" />
+			<img src="img/banner1.jpg" width="100%" />
 		</figure>
 		<figure>
-			<img src="img/5908.jpg" width="100%" />
+			<img src="img/banner2.jpg" width="100%" />
    	</figure>
 	</section>
 	<section class="about-us container">
@@ -40,32 +40,32 @@
 		<p class="text-center">Our Product have some XXXXXX</p>
 		<div class="container text-center">
 			<div class="our-product-block">
-				<img src="img/A-1.jpg" alt="">
+			<img src="img/A-1.jpg" data-darkbox="img/A-1.jpg" data-darkbox-description="" class="img-responsive slideanim slide">
 				<h4>A-1</h4>
 				<p></p>
 			</div>
 			<div class="our-product-block">
-				<img src="img/B-1.jpg" alt="">
+			<img src="img/B-1.jpg" data-darkbox="img/B-1.jpg" data-darkbox-description="" class="img-responsive slideanim slide">
 				<h4>B-1</h4>
 				<p></p>
 			</div>
 			<div class="our-product-block">
-				<img src="img/C-1.jpg" alt="">
+			<img src="img/C-1.jpg" data-darkbox="img/C-1.jpg" data-darkbox-description="" class="img-responsive slideanim slide">
 				<h4>C-1</h4>
 				<p></p>
 			</div>
 			<div class="our-product-block">
-				<img src="img/D-1.jpg" alt="">
+			<img src="img/D-1.jpg" data-darkbox="img/D-1.jpg" data-darkbox-description="" class="img-responsive slideanim slide">
 				<h4>D-1</h4>
 				<p></p>
 			</div>
 			<div class="our-product-block">
-				<img src="img/E-1.jpg" alt="">
+			<img src="img/E-1.jpg" data-darkbox="img/E-1.jpg" data-darkbox-description="" class="img-responsive slideanim slide">
 				<h4>E-1</h4>
 				<p></p>
 			</div>
 			<div class="our-product-block">
-				<img src="img/F-1.jpg" alt="">
+			<img src="img/F-1.jpg" data-darkbox="img/F-1.jpg" data-darkbox-description="" class="img-responsive slideanim slide">
 				<h4>F-1</h4>
 				<p></p>
 			</div>
@@ -83,7 +83,7 @@
 				</div>
 				<div class="phone">
 					<i class="glyphicon glyphicon-phone-alt"></i>
-					<p>03-4718780-2</p>
+					<p>03-4718780-2(王小姐)</p>
 				</div>
 				<div class="email-info">
 					<i class="glyphicon glyphicon-envelope"></i>
@@ -95,6 +95,8 @@
 </body>
 <script src="src/hammer.min.js"></script>
 <script src="src/better-simple-slideshow.js"></script>
+<script src="src/jquery.min.js"></script>
+<script src="src/darkbox.js"></script>
 <script>
 	var opts = {
 	    auto : {
