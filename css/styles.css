@@ -18,18 +18,23 @@ nav {
   nav .navbar-header {
     font-size: 36px;
     display: inline-block;
-    margin: 38px; }
+    margin: 36px; }
   nav .navbar {
     display: inline-block;
     text-align: center;
     margin-left: 100px; }
     nav .navbar li {
+      position: relative;
       display: inline-block;
-      font-size: 30px;
+      font-size: 26px;
       margin: 30px;
       padding-top: 10px;
       border-top-width: 4px;
-      border-style: solid; }
+      border-style: solid;
+      cursor: pointer; }
+      nav .navbar li a {
+        color: #FFFFFF;
+        text-decoration: none; }
 
 .about-us {
   background-color: #FFFFFF;

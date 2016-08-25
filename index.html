@@ -12,9 +12,10 @@
 	<nav class="container">
 		<div class="navbar-header">Yixiang</div>
 		<ul class="navbar">
-			<li>Home</li>
-			<li>Products</li>
-			<li>Contact</li>
+			<li><a href="#"><span>Home</span></a></li>
+			<li><a href="#about-us"><span>About-us</span></a></li>
+			<li><a href="#products"><span>Products</span></a></li>
+			<li><a href="#contact-us"><span>Contact</span></a></li>
 		</ul>
 	</nav>
 	<section class="bss-slides">
@@ -25,7 +26,7 @@
 			<img src="img/banner2.jpg" width="100%" />
    	</figure>
 	</section>
-	<section class="about-us container">
+	<section id="about-us" class="about-us container">
 		<h3 class="text-center">About Us</h3>
 		<article>
 				<img src="img/5912.jpg" alt="">
@@ -35,7 +36,7 @@
 			</div>
 		</article>
 	</section>
-	<section class="our-product">
+	<section id="products" class="our-product">
 		<h3 class="text-center">Out Product</h3>
 		<p class="text-center">Our Product have some XXXXXX</p>
 		<div class="container text-center">
@@ -71,7 +72,7 @@
 			</div>
 		</div>
 	</section>
-	<footer>
+	<footer id="contact-us">
 		<h2 class="text-center">THANKS FOR VISITING US</h2>
 		<hr>
 		<div class="container">
@@ -107,5 +108,15 @@
 	    swipe : true
 	};
 	    makeBSS('.bss-slides',opts);
+
+	$('.navbar a').on('click',function(){
+		var hash = this.hash;
+
+		$('html,body').animate({
+			scrollTop: $(hash).offset().top
+		},900,function(){
+			window.location.hash = hash;
+		});
+	});
 </script>
 </html>
