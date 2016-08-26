@@ -1,0 +1,264 @@
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 50px;
+  font-family: cursive;
+  line-height: 108px;
+  text-align: center; }
+
+nav {
+  z-index: 5;
+  width: 100%;
+  position: absolute;
+  font-weight: blod;
+  font-fmaily: 'Roboto', sans-serif;
+  color: #FFFFFF; }
+  nav .navbar-header {
+    font-size: 46px;
+    display: inline-block;
+    margin: 36px; }
+  nav .navbar {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px; }
+    nav .navbar li {
+      position: relative;
+      display: inline-block;
+      font-size: 26px;
+      margin: 40px;
+      padding-top: 10px;
+      border-top-width: 4px;
+      border-style: solid;
+      cursor: pointer; }
+      nav .navbar li a {
+        color: #FFFFFF;
+        text-decoration: none; }
+
+.about-us {
+  background-color: #FFFFFF;
+  padding: 100px 0; }
+  .about-us h3 {
+    font-size: 35px;
+    margin-bottom: 40px; }
+  .about-us h4 {
+    font-size: 25px;
+    padding-bottom: 20px; }
+  .about-us p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-bottom: 20px;
+    color: #A7A7A7; }
+  .about-us img {
+    width: 45%; }
+  .about-us div {
+    float: right;
+    width: 45%; }
+
+.our-product {
+  background: url(../img/event.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 100px 0; }
+  .our-product h3 {
+    font-size: 35px;
+    color: #FFFFFF; }
+  .our-product p {
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px 0 50px; }
+
+.our-product-block {
+  text-align: center;
+  display: inline-block;
+  width: 27%;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.64);
+  border: 5px solid rgba(0, 0, 0, 0.33);
+  transition: all 0.5s ease-in-out;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .our-product-block img {
+    padding: 20px 0 0 0;
+    width: 100%; }
+  .our-product-block h4 {
+    color: #FFFFFF;
+    padding: 20px 0;
+    font-size: 20px; }
+
+footer {
+  background-color: #222;
+  padding: 60px 0 50px;
+  color: #FFFFFF;
+  font-size: 24px; }
+  footer h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-transform: uppercase; }
+  footer h4 {
+    padding-top: 10px;
+    font-size: 26px; }
+  footer hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee; }
+  footer i {
+    display: inline-block;
+    font-size: 30px;
+    margin: 25px 20px 10px 25px; }
+  footer p {
+    display: inline-block;
+    position: relative;
+    bottom: 5px; }
+  footer iframe {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+
+.text-center {
+  text-align: center; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 55px;
+  margin-left: 55px; }
+
+/*
+Darkbox
+*/
+[data-darkbox] {
+  /* add cursor to clickable darkbox items */
+  cursor: pointer;
+  backface-visibility: hidden; }
+
+#darkbox {
+  position: fixed;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.8) no-repeat none 50%;
+  background-size: contain;
+  box-shadow: 0 0 0 3000px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden; }
+
+#darkbox.on {
+  opacity: 1;
+  visibility: visible;
+  height: 90% !important;
+  width: 90% !important;
+  left: 5% !important;
+  top: 5% !important; }
+
+#darkbox:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 2em;
+  content: "\2A2F";
+  color: #fff;
+  cursor: pointer; }
+
+/*prev next buttons*/
+#darkbox_prev,
+#darkbox_next {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  height: 50px;
+  width: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff; }
+
+#darkbox_prev:hover,
+#darkbox_next:hover {
+  border-color: #09c; }
+
+#darkbox_prev {
+  left: -2px;
+  -o-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg); }
+
+#darkbox_next {
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  right: -2px; }
+
+#darkbox-description {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  bottom: 5px;
+  text-align: right;
+  text-shadow: 0 1px 1px #000; }
+
+#darkbox-description a {
+  color: #fff;
+  font-weight: bold; }
+
+#darkbox sub {
+  font-size: 10px; }
+
+/*-- Agile ITS --*/
+/*-- /Gallery Section --*/
+/*-- Testimonial Section --*/
+section.our-testimonials {
+  padding: 100px 0;
+  background: url(../images/test1.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%; }
+
+section.our-testimonials h3.text-center {
+  color: #fff; }
+
+section.our-testimonials p.text-center {
+  color: #fff; }
+
+section.our-testimonials .test img.img-responsive {
+  width: 120px;
+  margin: 0 auto;
+  padding-top: 30px; }
+
+section.our-testimonials h4.text-center {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 20px 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif; }
+
+section.our-testimonials p.t1 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 25px;
+  color: #fff;
+  padding: 0 30px 30px; }
+
+section.our-testimonials .test {
+  background-color: rgba(0, 0, 0, 0.64);
+  border: 5px solid rgba(0, 0, 0, 0.33);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+section.our-testimonials .test:hover {
+  background-color: rgba(0, 0, 0, 0.88); }
