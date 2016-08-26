@@ -16,7 +16,7 @@ nav {
   font-fmaily: 'Roboto', sans-serif;
   color: #FFFFFF; }
   nav .navbar-header {
-    font-size: 36px;
+    font-size: 46px;
     display: inline-block;
     margin: 36px; }
   nav .navbar {
@@ -27,7 +27,7 @@ nav {
       position: relative;
       display: inline-block;
       font-size: 26px;
-      margin: 30px;
+      margin: 40px;
       padding-top: 10px;
       border-top-width: 4px;
       border-style: solid;
@@ -92,7 +92,8 @@ nav {
 footer {
   background-color: #222;
   padding: 60px 0 50px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-size: 24px; }
   footer h2 {
     font-size: 30px;
     font-weight: 500;
@@ -111,7 +112,13 @@ footer {
     font-size: 30px;
     margin: 25px 20px 10px 25px; }
   footer p {
-    display: inline-block; }
+    display: inline-block;
+    position: relative;
+    bottom: 5px; }
+  footer iframe {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px; }
 
 .text-center {
   text-align: center; }
